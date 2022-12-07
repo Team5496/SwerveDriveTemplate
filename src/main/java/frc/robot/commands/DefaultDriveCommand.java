@@ -36,9 +36,6 @@ public class DefaultDriveCommand extends CommandBase {
                 )
         );
 
-        System.out.println(m_drivetrainSubsystem.getBackLeft().getSteerAngle());
-
-
     }
     public void reset() {
         m_drivetrainSubsystem.zeroGyroscope();
